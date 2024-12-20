@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!tjgo5u1-1s=d2_*ikvi*l0p9ol+=z^48qqvuwyw9_+l@_q_cc
 # SECURITY WARNING: don't run with debug turned on in production!
 PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
-
+#
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", '10.0.2.2', "utandra-nur-gamehunt.pbp.cs.ui.ac.id", "vincent-davis-testing.pbp.cs.ui.ac.id"]
 
 # Application definition
